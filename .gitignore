@@ -1,0 +1,43 @@
+# Fichiers compilés et temporaires
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Fichiers spécifiques à Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Fichiers spécifiques à Eclipse
+*.iml
+*.ipr
+*.iws
+/.idea/
+/.project
+/.settings/
+/.classpath
+/.vscode/
+
+# Fichiers spécifiques à Spring Boot
+*.log
+logs/
+nohup.out
+
+# Fichiers spécifiques à MySQL Workbench
+*.sql.bak
+
+# Fichiers sensibles
+application.properties
+application.yml
+.env
+
+# Dépendances Maven (évite d'envoyer les libs dans le repo)
+**/target/
+**/.mvn/
+**/dependency-reduced-pom.xml
+**/build/
